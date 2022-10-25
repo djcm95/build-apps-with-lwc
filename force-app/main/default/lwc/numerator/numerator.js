@@ -3,10 +3,10 @@ import { LightningElement } from 'lwc';
 export default class Numerator extends LightningElement {
 
     counter = 0;
-    incrementarContador() {
+    handleIncrement() {
       this.counter++;
     }
-    decrementarContador() {
+    handleDecrement() {
       this.counter--;
     }
     handleMultiply(event) {
